@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:arial;
+    border: none;
+}
+
+main{
+    font-size:12px;
+}
+nav {
+    height: 60px;
+    background-color: #0f1111;
+    color:#ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav .nav_icon{
+    margin:1px;
+    height: 50px;
+    width:113px;
+    display: inline-block;
+    cursor:pointer;
+    
+}
+nav .nav_icon .logo{
+    height: 50px;
+    width:113px;
+    background-image: url("../Amazon_Clone/images/amazon_logo.png");
+    /* To adjust the size according to the size of div */
+    background-size: cover;
+    display: inline-block;
+}
+/* Defining the transparent border so that size will remain same afer hoverin */
+.border{
+    border:1px solid transparent;
+}
+/* Condition of hover */
+.border:hover{
+    border:1px solid white;
+    cursor:pointer;
+
+}
+
+/* Setting the styling of 2nd box i.e location */
+nav .location{
+    display: inline-block;
+    height:50px;
+    margin:5px 2px 5px 5px;
+    padding: 6px 5px 0px 0px  ;
+    cursor: pointer
+    ;
+}
+
+nav .location #deliver{
+    font-size: 1rem;
+    color: #CCCCCC;
+}
+
+nav .location #icon_loc{
+    font-size: 1.1rem;
+}
+
+nav .location #icon_loc p{
+    display: inline-block;
+}
+
+/* Setting the styling of Search Bar */
+nav .search{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width:620px;
+    border-radius:4px 4px 4px 4px ;
+    font-size : 1.1rem;
+  
+}
+nav .search .option{
+    width:45px;
+    font-size: 1rem;
+    padding: 1px;
+    border-radius:4px 0px 0px 4px ;
+    background-color: #e7e7e7;
+    cursor:pointer;
+    
+}
+
+nav .search .search_bar{
+    font-size: 1.1rem;
+    width:100%;
+    padding: 7px;
+}
+
+nav .search .search_icon{
+    display: flex;
+    width:45px;
+    color:black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 4px 4px 0px;
+    background-color: orange;
+    cursor:pointer;
+}
+/* To show the orange border to search bar  */
+.orange_border{
+    border:2px solid transparent;
+}
+.orange_border:focus{
+    border:2px solid orange;
+    border-radius:4px;
+}
+nav .us{
+    cursor: pointer;
+    display:flex;
+    height: 50px;
+    align-items: center;
+    padding: 10px 9px;
+}
+nav .us p{
+    font-weight: 600;
+    font-size: 1rem;
+    margin:13px 0px 0px 0px;
+}
+nav .us img{
+    margin:13px 0px 0px 0px;
+} 
+nav .signin_account{
+    height:50px;
+    cursor:pointer;
+
+}
+nav .small_text{
+    font-size: 0.8rem;
+}
+
+nav .big_text{
+    font-size: 0.9rem;
+    font-weight:600;
+}
+
+nav .text{
+    margin-top: 10px;
+}
+
+/* Styling the cart and the text with cart  */
+nav .cart{
+    height:50px;
+    display: flex;
+    cursor:pointer;
+}
+nav .cart i{
+    font-size:25px;
+    margin-top: 13px;
+}
+nav .cart p{
+    margin-top: 22px;
+    font-weight: 600;
+}
+
+/* Styling the panel */
+.panel{
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    background-color: #222f3d;
+    color:white;
+}
+
+.panel .panel_option{
+    display: flex;
+    width:95%;
+    height:100%;
+}
+
+.panel .panel_option p{
+    margin-left:15px;
+    height:95%;
+    padding-top:10px;
+}
+.panel .panel_all{
+    height:95%;
+    padding-top: 10px;
+    font-size: 0.95;
+    font-weight: 600;
+}
