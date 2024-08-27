@@ -5,10 +5,10 @@
     font-family:arial;
     border: none;
 }
-
 main{
     font-size:12px;
     background-color: #e2e7e6;
+    min-height: 1270px;
 }
 nav {
     height: 60px;
@@ -192,12 +192,13 @@ main .hero-part{
     background: url('../Amazon_Clone/images/hero.jpg');
     background-size: cover;
     height:600px;
+    cursor: text;
 }
 main .shop-box{
     position: absolute;
     display: flex;
     justify-content: space-evenly;
-    bottom: 150px;
+    top:360px;
 }
 main .box{
     height: 360px;
@@ -228,15 +229,70 @@ main .shop-box1{
     position: absolute;
     display: flex;
     justify-content: space-evenly;
-    bottom: 330px;
+    top: 740px;
 }
 
 main .shop-box2{
-    height:250px;
-    background-color: white;
-    position: relative;
-    bottom: 310px;
-    margin:0px 19px;
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
+main .combine_box{
+    width: 97%;
+    height: 220px;
+    background-color: white;
+    position: absolute;
+    top:1120px;    
+}
 
+main .shop-box2 .combine_box .combine_box_elements{
+    display: flex;
+}
+main .shop-box2 .combine_box .combine_box_elements .img{
+    height: 200px;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+main .shop-box2 .combine_box .combine_box_elements .img1{
+    width: 191px;
+}
+
+main .shop-box2 .combine_box .combine_box_elements .img2{
+    width: 92px;
+}
+
+main .shop-box2 .combine_box .combine_box_elements .img3{
+    width: 270px;
+}
+
+main .shop-box2 .combine_box .combine_box_elements .img4{
+    width: 90px;
+}
+main .shop-box2 .combine_box .combine_box_elements .img5{
+    width: 195px;
+}
+main .shop-box2 .combine_box .combine_box_elements .img6{
+    width: 195px;
+}
+main .shop-box2 .combine_box .combine_box_elements .img7{
+    width: 203px;
+}
+img{
+    cursor:pointer;
+}
+footer .foot-panel1{
+    background-color: #37475a;
+    color:white;
+    height:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+footer .foot-panel1:hover{
+    background-color: #738aa9;
+
+}
